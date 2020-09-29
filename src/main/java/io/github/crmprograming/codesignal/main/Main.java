@@ -23,6 +23,11 @@ public class Main {
 		// Ocean 1
 		System.out.println(Ocean1.adjacentElementsProduct(new int[] {3, 6, -2, -5, 7, 3}));
 		
+		// Ocean 2
+		System.out.println(Ocean2.shapeArea(2));
+		System.out.println(Ocean2.shapeArea(3));
+		System.out.println(Ocean2.shapeArea(4));
+		
 	}
 
 	public static void main(String[] args) {
