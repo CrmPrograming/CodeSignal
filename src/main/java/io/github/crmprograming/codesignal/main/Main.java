@@ -1,7 +1,6 @@
 package io.github.crmprograming.codesignal.main;
 
-import io.github.crmprograming.codesignal.intro.journey.Journey1;
-import io.github.crmprograming.codesignal.intro.journey.Journey2;
+import io.github.crmprograming.codesignal.intro.journey.*;
 
 public class Main {
 
@@ -12,6 +11,11 @@ public class Main {
 		// Journey 2		
 		System.out.println(Journey2.centuryFromYear(1905));
 		System.out.println(Journey2.centuryFromYear(1700));
+		
+		// Journey 3
+		System.out.println(Journey3.checkPalindrome("aabaa"));
+		System.out.println(Journey3.checkPalindrome("abac"));
+		System.out.println(Journey3.checkPalindrome("a"));
 	}
 
 }
